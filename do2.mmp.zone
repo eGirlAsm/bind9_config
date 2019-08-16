@@ -1,0 +1,15 @@
+$TTL 1M
+do2.mmp.    IN  SOA   ns1.do2.mmp.  root.do2.mmp. (
+        2007091701         ; Serial
+        30800              ; Refresh
+        7200               ; Retry
+        604800             ; Expire
+        300 )              ; Minimum
+
+        IN    NS        ns1.do2.mmp.
+
+@       IN    A         127.0.0.1    ; 将所有域名都泛解析到192.168.0.2上
+www	IN CNAME @	;
+ns1	IN A 127.0.0.1	;
+
+

@@ -1,0 +1,7 @@
+*.tmp
+*.log
+*.log.*
+*.key
+*.bind.*
+*.bind
+*.pid
